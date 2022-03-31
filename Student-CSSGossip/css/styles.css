@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Reey';
+    src: url(../font/reey-regular-webfont.woff) format('woff'), url(/font/Reey-Regular.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    font-family: Arial;
+    font-size: 1em;
+    background-image: url("../image/abstractPic.jpg") ;
+    background-size: cover;   
+}
+h1
+{
+font-family: 'Reey';
+font-size: 2em;
+}
+h3
+{
+font-size: 1.5em;
+border-bottom: 1px solid black;
+}
+.fonts
+{
+font-family: 'Comic Sans MS';
+font-size: 1.5em;
+font-weight: bold;
+font-style: italic;
+color: orange;
+}
+.colors
+{
+    color: red;
+    font-weight: bold;
+}
+.more
+{
+    color: blue;
+    text-decoration: underline;
+    border: 1px dashed gray;
+    background-color: #D69BBE;
+}
+.backgrounds
+{
+    color: green;
+    font-family:'Trebuchet MS';
+    font-size: 1.25em;
+}
+article ul 
+{
+    list-style-image: url("../image/peaceSign.png");
+  }
+#outerwrapper
+{
+    width: 650px;
+    background-color: #E7DBF6;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav
+{
+    width: 175px;
+    background-color: #E7DBF6;
+    float: left;
+}
+article
+{
+    margin-left: 175px;
+    background-color: white;
+    padding: 10px;
+
+}
+footer
+{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
