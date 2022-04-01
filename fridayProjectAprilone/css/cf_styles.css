@@ -1,0 +1,72 @@
+/* Ahmad Alfanatseh
+	4/1/2022
+*/
+@font-face 
+{
+    font-family:'Reey';
+    src: url(../font/reey-regular-webfont.woff) format('woff'), 
+	url(../font/reey-regular-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+body
+{
+	background-color:#B8D1EB;
+	color:#000000;
+	font-family:'Times New Roman', 'Times', 'serif' ;
+}
+main
+{
+background-color:  #C5A98B;
+padding: 10px;
+}
+h1
+{
+	font-family:'Rock 3D', cursive;
+	font-size:larger;
+}
+h2
+{
+	font-family: 'Reey',Times, serif;
+	font-weight: normal;
+	font-style: italic;
+
+}
+.floatleft{ 
+float:left;
+
+margin-right: 3%;
+}
+
+.floatright 
+{
+float: right;
+margin-left: 3%;
+}
+
+main, footer 
+{ 
+clear: both;
+}
+nav ul
+{
+list-style: none;
+}
+main ul
+{
+	list-style-image: url("../images/tomato.png");
+}
+footer
+{
+	font-size: .75em;
+	text-align: center;
+	background-color: #6e81eb;
+	padding: 10px 10px; 
+
+}
