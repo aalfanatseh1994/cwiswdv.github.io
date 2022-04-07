@@ -1,0 +1,96 @@
+/* Style Sheet If You Build It (table), They Will Come */
+/* Name: Ahmad Alfanatseh 4/7/2022                                       */
+
+/* Gradient target HTML body element tag */
+html
+{
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(at top right, #d30303, #e7e7e7);
+    background-repeat: no-repeat;
+}
+
+/* css target tableStyle class in HTML */
+table
+{
+    border: 10px solid rgb(0, 255, 234);
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+td 
+{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px;
+    text-align: left;
+ 
+}
+th
+{
+    border: 3px solid rgb(18, 168, 179);
+    background-color: #e7e7e7;
+    text-align: left;
+    padding: 5px;
+
+}
+
+tbody
+{
+text-align: left;
+font-size: medium;
+color: black;
+}
+
+/* css target HTML Table caption tag */
+caption
+{
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+    padding: 1em;
+}
+
+
+/* css target HTML Table thead tag */
+ 
+ thead
+ {
+    color: #e22828;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;  
+ }
+ 
+/* css target HTML Table tfoot tag */
+ tfoot
+ {
+    color: rgb(0, 0, 0);
+    background-color: white ;
+    font-size: 0.7em;
+ }
+
+ 
+/* Add a pseudo-class selector (page 320) */
+/* For example --  :nth-child(even)       */
+tr:nth-child(2)
+{
+  background-color: rgb(34, 209, 221);
+  color:rgb(0, 0, 0);
+} 
+tr:nth-child(3)
+{
+  background-color: rgb(255, 238, 0);
+  color:rgb(0, 0, 0);
+}
+ 
+/* use colgroup */
+/* Week 3, Wednesday Video Lesson Chapter 8 folder - Table Column Group, page 173 */
+#colgroup1
+{
+    background-color: #ffffff;
+}
+#colgroup2
+{
+    background-color: rgb(255, 0, 149);
+}
