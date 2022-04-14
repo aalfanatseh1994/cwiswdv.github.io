@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--Ahmad, Alfanatseh, 4/13/2022-->
+<html lang="en">
+    <head>
+        <title> Ahmad Alfanatseh contact </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Softwear Developer with great skills">
+        <meta name="keywords" content="HTML, CSS, C-sharp, Website-Design">
+        <meta name="author" content="Ahmad Alfanatseh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/TableLayout.css">
+    </head>
+    <body>
+      <header> 
+        <h1>Ahmad Alfanatseh</h1> 
+          <a href="HomeAhmad.html"> <img id="frontImage" src="image/AhmadAlfa.jpg" alt="Ahmads Software Developer"></a>
+        <div>
+         <nav>
+         <ul class="menu">
+               <li><a href="HomeAhmad.html">Home</a></li>
+               <li><a href="experience.html">Experience</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="aboutme.html">About Ahmad</a></li>
+         </ul>
+        </nav>
+        </div>  
+      </header>
+      <!--contcat section start-->
+      <div class="container">
+        <form action="mailto:ahmadalfanatseh@my.cwi.edu" method="POST"
+        enctype="text/plain" name="EmailForm">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" name="email" placeholder="Your Email..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Topic">Topic</label>
+          </div>
+          <div class="col-75">
+            <select id="Topic" name="Topic">
+              <option value="C-sharp">C-sharp</option>
+              <option value="HTML&CSS">HTML&CSS</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>        
+        <fieldset>
+          <legend>Choose your preferred language of communication</legend>      
+          <input type="radio" id="Lang1" name="Lang" value="Arabic">
+          <label for="Lang1">Arabic</label><br>
+          <input type="radio" id="Lang2" name="Lang" value="Englsih">
+          <label for="Lang2">English</label><br>  
+          <input type="radio" id="Lang3" name="Lang" value="Spanish">        
+          <label for="Lang3">Spanish</label><br><br>   
+        </fieldset>
+          <div class="row">
+            <input type="submit" id="submit" value="Submit" class="btn">
+        </div>       
+        </form>
+      </div>      
+     
+      <footer>
+        <small>Copyright &copy;2022 Ahmad Alfanatseh</small>
+        <p><a href="https://www.linkedin.com/in/ahmad-alfanatseh/" target="blank"><img src="image/linkedin-48.png" alt="linkedin account"></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://facebook.com/?lang=en" target="blank"><img src="image/facebook.png" alt="social icon for twitter"></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/ahmadalfanatseh/ahmadalfanatseh.github.io.git" target="blank"><img src="image/github.png" alt="social icon for gethub"></a>
+          <br>
+          <small>&#x261E; Contact me via email <a href="aalfanatseh1994@gmail.com">Aalfanatseh1994@gmail.com</a> or via phone at <a href="tel:+12089895446">208-989-5446</a> &#x261C;</small>
+          
+     </footer>
+</body>
+</html>

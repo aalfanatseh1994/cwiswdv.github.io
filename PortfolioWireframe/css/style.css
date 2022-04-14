@@ -1,0 +1,168 @@
+/*Ahmad alfanatseh 4/13/2022*/
+@font-face 
+{    font-family: 'Dobkin';
+	src: url(../font/dobkinplain-webfont.woff) format('woff');
+}
+@font-face 
+{    font-family: 'Reey';
+    src: url(../font/reey-regular-webfont.woff) format('woff');
+}
+  
+html
+{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #0a79a1, #23d5ab);    
+}
+header img, #frontImage
+{
+    border: 4px solid rgb(15, 123, 131);
+    border-radius: 30px;
+    width: 300px;        
+}
+p
+{
+    font-family: 'Reey', Times, serif;
+    font-weight: 100 ;
+    font-size: x-large;
+}
+div
+{
+    display: flex;
+    justify-content: center;
+}
+nav
+{    
+    margin: 25px;   
+    width: 70%;   
+    font-family: 'Dobkin', Times, serif;  
+}
+/*menu list work*/
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    background:linear-gradient(10deg, #ee7752, #e73c7e, #0a79a1, #23d5ab);
+    border-radius: 3em;     
+    display: flex;
+    justify-content: center;
+}
+li
+{
+  font-family: 'Pacifico', Arial, Helvetica, sans-serif, cursive;  
+  color: rgb(235, 222, 222);
+  padding: 20px 20px; 
+  
+}
+li a 
+{
+    color: white;    
+    padding: 14px 16px;
+    text-decoration: none;
+    border-style: dotted;
+    font-family:Verdana, Tahoma, sans-serif
+}
+  
+li a:hover
+{
+    background-color: rgb(23, 46, 53);
+    color: rgb(230, 91, 27);
+}
+a:visited 
+{
+  color: peru;
+}
+h1
+{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+    font-family: 'Reey',Times, Arial, serif;    
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(13, 45, 58);
+    margin: auto;
+}
+main span
+{  
+  text-decoration: underline;
+}
+body
+{    
+    letter-spacing: 0.02em;
+    font-weight: 550;
+    text-align: center;
+    
+}
+
+
+
+  
+  input[type=text], input[type=email], select, textarea
+   {
+    width: 750%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background:linear-gradient(-45deg,#23d5ab, #ee7752, #e73c7e, #0a79a1 );    
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 12px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container 
+  {
+    border-radius: 5px;    
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 600px;
+    margin-top: 6px;
+  }  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+  fieldset
+  {
+    width: 45%;
+    margin: auto;
+    height: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  footer
+{        
+    background: linear-gradient(10deg, #ee7752, #e73c7e, #0a79a1, #23d5ab);
+    border-radius: 4em;    
+    clear: both;   
+    margin-top: 1em;    
+}
+  
+  
