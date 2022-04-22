@@ -1,0 +1,125 @@
+/*
+Ahmad Alfanatseh 4/22/2022
+*/
+
+body 
+{ 	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+	width: auto;	
+}
+
+nav li
+{
+	display: inline-block;
+}
+header 
+{ 
+	background-color: #9BC1C2; 
+    background-image: url("../image/lilyheader.jpg");
+	background-position: right;
+	background-repeat: no-repeat;	
+}
+dd
+{
+font-weight: lighter;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+	display: block;
+}
+
+nav
+{
+	float: none;   
+	padding-left: 2em;
+}
+
+img {
+	width: auto;
+	height: auto;
+	object-fit: cover;
+	
+  }
+
+ul
+{
+	list-style-image: url("../image/yogabullet.png");
+	margin-left: 3em;
+}
+.schedule
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+td
+{
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+}
+address
+{
+	margin-bottom: 0.5em;
+}
+
+footer 
+{ 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;	
+}
+
+/*-- --------------------------------------------------------
+--------------------- Tablet View----------------------------
+-------------------------------------------------------------*/
+@media screen and (max-width:641px)
+{
+h2
+{
+	display:block;
+}
+.image
+{
+	display:none;	
+}
+
+header
+{
+	background-color:#9BC1C2 ;
+	background-image: none;
+}
+nav li
+{
+	display:block;
+	margin: 0;
+	padding: 0;
+
+}
+#wrapper
+{
+	background-image: url("../image/yogamobile.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	
+}
+
+} 
+
